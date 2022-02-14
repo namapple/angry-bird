@@ -1,0 +1,8 @@
+root = true
+
+# Prevent analyzers from running in these directories
+[Assets/TextMesh Pro/**.cs]
+generated_code = true
+dotnet_analyzer_diagnostic.severity = none
+# [*.cs]
+# dotnet_diagnostic.IDE0051.severity = none
